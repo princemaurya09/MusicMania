@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MusicMania - Your favourite music is here</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="MusicMania">MusicMania</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <div class="heading">
+                <h1>Playlists-Where words fail,music speaks</h1>
+            </div>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">keejo kesari ke laal</span>
+                    <span class="songlistplay"><span class="timestamp">06:12 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Tum Se</span>
+                    <span class="songlistplay"><span class="timestamp">02:45 <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Still Rollins</span>
+                    <span class="songlistplay"><span class="timestamp">02:54 <i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">No Love(Shubh)</span>
+                    <span class="songlistplay"><span class="timestamp">02:50 <i id="3" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Tauba Tauba</span>
+                    <span class="songlistplay"><span class="timestamp">03:27 <i id="4" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Daru Badnam</span>
+                    <span class="songlistplay"><span class="timestamp">03:05 <i id="5" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Check It Out</span>
+                    <span class="songlistplay"><span class="timestamp">03:18 <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Born To Shine</span>
+                    <span class="songlistplay"><span class="timestamp">03:33 <i id="7" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Admirin You</span>
+                    <span class="songlistplay"><span class="timestamp">03:34 <i id="8" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Naina from Crew</span>
+                    <span class="songlistplay"><span class="timestamp">03:01 <i id="9" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Aaoge Tum Kabhi</span>
+                    <span class="songlistplay"><span class="timestamp">05:13 <i id="10" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Heeriye</span>
+                    <span class="songlistplay"><span class="timestamp">03:19 <i id="11" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Soulmate </span>
+                    <span class="songlistplay"><span class="timestamp">03:33 <i id="12" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Aam Jahe Munde </span>
+                    <span class="songlistplay"><span class="timestamp">03:27 <i id="13" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-random" id="shuffleButton"></i> <!-- Shuffle Button -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">keejo kesari ke laal</span>
+        </div>
+        <div class="volume-control">
+            <i id="muteButton" class="fas fa-volume-up"></i> <!-- Mute Button/Icon -->
+            <label for="volume-slider"></label>
+            <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="1">
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!--<script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>-->
+    <script src="https://kit.fontawesome.com/e4cb369718.js" crossorigin="anonymous"></script>
+</body>
+</html>
